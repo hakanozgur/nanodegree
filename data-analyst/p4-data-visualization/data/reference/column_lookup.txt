@@ -1,0 +1,317 @@
+{"column": "SC001Q01TA", "meaning": "Which of the following definitions best describes the community in which your school is located?"}
+{"column": "SC013Q01TA", "meaning": "Is your school a public or a private school?"}
+{"column": "SC017Q01NA", "meaning": "Schools instruction hindered by: A lack of teaching staff."}
+{"column": "SC017Q02NA", "meaning": "Schools instruction hindered by: Inadequate or poorly qualified teaching staff."}
+{"column": "SC017Q05NA", "meaning": "Schools instruction hindered by: A lack of educational material [...]"}
+{"column": "SC017Q07NA", "meaning": "Schools instruction hindered by: A lack of physical infrastructure [...]"}
+{"column": "SC017Q08NA", "meaning": "Schools instruction hindered by: Inadequate or poor quality physical infrastructure [...]"}
+{"column": "SC011Q01TA", "meaning": "Which of the following statements best describes the schooling available to students in your location?"}
+{"column": "SC061Q01TA", "meaning": "Extent to which student learning is hindered by: Student truancy"}
+{"column": "SC061Q02TA", "meaning": "Extent to which student learning is hindered by: Students skipping classes"}
+{"column": "SC061Q03TA", "meaning": "Extent to which student learning is hindered by: Students lacking respect for teachers"}
+{"column": "SC061Q04TA", "meaning": "Extent to which student learning is hindered by: Student use of alcohol or illegal drugs"}
+{"column": "SC061Q05TA", "meaning": "Extent to which student learning is hindered by: Students intimidating or bullying other students"}
+{"column": "SC061Q11HA", "meaning": "Extent to which student learning is hindered by: Students not being attentive"}
+{"column": "SC002Q01TA", "meaning": "As of <February 1, 2018>, what was the total school enrolment (number of students)? Number of boys"}
+{"column": "SC002Q02TA", "meaning": "As of <February 1, 2018>, what was the total school enrolment (number of students)? Number of girls"}
+{"column": "SC018Q01TA01", "meaning": "Teachers in TOTAL: Full-time"}
+{"column": "SC018Q01TA02", "meaning": "Teachers in TOTAL: Part-time"}
+{"column": "SC018Q02TA01", "meaning": "Teachers <fully certified> by <the appropriate authority>: Full-time"}
+{"column": "SC018Q02TA02", "meaning": "Teachers <fully certified> by <the appropriate authority>: Part-time"}
+{"column": "SC018Q05NA01", "meaning": "Teachers with an <ISCED Level 5A Bachelor degree> qualification: Full-time"}
+{"column": "SC018Q05NA02", "meaning": "Teachers with an <ISCED Level 5A Bachelor degree> qualification: Part-time"}
+{"column": "SC018Q06NA01", "meaning": "Teachers with an <ISCED Level 5A Masters degree> qualification: Full-time"}
+{"column": "SC018Q06NA02", "meaning": "Teachers with an <ISCED Level 5A Masters degree> qualification: Part-time"}
+{"column": "SC018Q07NA01", "meaning": "Teachers with an <ISCED Level 6> qualification: Full-time"}
+{"column": "SC018Q07NA02", "meaning": "Teachers with an <ISCED Level 6> qualification: Part-time"}
+{"column": "SC003Q01TA", "meaning": "What is the average size of <test language> classes in in your school?"}
+{"column": "CNTRYID", "meaning": "Country Identifier"}
+{"column": "CNTSCHID", "meaning": "Intl. School ID"}
+{"column": "CYC", "meaning": "PISA Assessment Cycle (2 digits + 2 character Assessment type - MS/FT)"}
+{"column": "CNT", "meaning": "Country code 3-character"}
+{"column": "NatCen", "meaning": "National Centre 6-digit Code"}
+{"column": "Region", "meaning": "Region"}
+{"column": "STRATUM", "meaning": "Stratum ID 7-character (cnt + region ID + original stratum ID)"}
+{"column": "CNTRYID", "meaning": "Country Identifier"}
+{"column": "CNTSCHID", "meaning": "Intl. School ID"}
+{"column": "CNTTCHID", "meaning": "Intl. Teacher ID"}
+{"column": "TEACHERID", "meaning": "Teacher identification code"}
+{"column": "STRATUM", "meaning": "Stratum ID 7-character (cnt + region ID + original stratum ID)"}
+{"column": "TC001Q01NA", "meaning": "Are you female or male?"}
+{"column": "TC002Q01NA", "meaning": "How old are you?"}
+{"column": "TC005Q01NA", "meaning": "What is your current employment status as a teacher? My employment status at this school"}
+{"column": "TC007Q01NA", "meaning": "How many years of work experience do you have? Year(s) working as a teacher at this school"}
+{"column": "TC198Q03HA", "meaning": "Agree: I would like to change to another school if that were possible."}
+{"column": "TC198Q04HA", "meaning": "Agree: I regret that I decided to become a teacher."}
+{"column": "TC198Q05HA", "meaning": "Agree: I enjoy working at this school."}
+{"column": "TC198Q06HA", "meaning": "Agree: I wonder whether it would have been better to choose another profession."}
+{"column": "TC198Q07HA", "meaning": "Agree: I would recommend my school as a good place to work."}
+{"column": "TC198Q08HA", "meaning": "Agree: I think that the teaching profession is valued in society."}
+{"column": "TC198Q09HA", "meaning": "Agree: I am satisfied with my performance in this school."}
+{"column": "TC198Q10HA", "meaning": "Agree: All in all, I am satisfied with my job."}
+{"column": "TC186Q01HA", "meaning": "Country of birth"}
+{"column": "TCSTAFFSHORT", "meaning": "Teacher's view on staff shortage (WLE)"}
+{"column": "TCEDUSHORT", "meaning": "Teacher's view on educational material shortage (WLE)"}
+{"column": "SATJOB", "meaning": "Teacher's satisfaction with the current job environment (WLE)"}
+{"column": "SATTEACH", "meaning": "Teacher's satisfaction with teaching profession (WLE)"}
+{"column": "SEFFREL", "meaning": "Teacher's self-efficacy in maintaining positive relations with students (WLE)"}
+{"column": "CNTRYID", "meaning": "Country Identifier"}
+{"column": "CNTSCHID", "meaning": "Intl. School ID"}
+{"column": "CNTSTUID", "meaning": "Intl. Student ID"}
+{"column": "IC001Q01TA", "meaning": "Available for you to use at home: Desktop computer"}
+{"column": "IC001Q02TA", "meaning": "Available for you to use at home: Portable laptop, or notebook"}
+{"column": "IC004Q01HA", "meaning": "How old were you when you first accessed the Internet?"}
+{"column": "LANGTEST_QQQ", "meaning": "Language of Questionnaire"}
+{"column": "OCOD1", "meaning": "ISCO-08 Occupation code - Mother"}
+{"column": "OCOD2", "meaning": "ISCO-08 Occupation code - Father"}
+{"column": "OECD", "meaning": "OECD country"}
+{"column": "PA042Q01TA", "meaning": "What is your annual household income?"}
+{"column": "ST001D01T", "meaning": "Student International Grade (Derived)"}
+{"column": "ST003D02T", "meaning": "Student (Standardized) Birth - Month"}
+{"column": "ST003D03T", "meaning": "Student (Standardized) Birth -Year"}
+{"column": "ST004D01T", "meaning": "Student (Standardized) Gender"}
+{"column": "ST005Q01TA", "meaning": "What is the <highest level of schooling> completed by your mother?"}
+{"column": "ST006Q01TA", "meaning": "Does your mother have this qualification? <ISCED level 6> (incl. higher qualifications at level 5A in some countries)"}
+{"column": "ST006Q02TA", "meaning": "Does your mother have this qualification? <ISCED level 5A> (excl. higher qualifications at level 5A in some countries)"}
+{"column": "ST006Q03TA", "meaning": "Does your mother have any of the following qualifications? <ISCED level 5B>"}
+{"column": "ST006Q04TA", "meaning": "Does your mother have any of the following qualifications? <ISCED level 4>"}
+{"column": "ST007Q01TA", "meaning": "What is the <highest level of schooling> completed by your father?"}
+{"column": "ST008Q01TA", "meaning": "Does your father have this qualification? <ISCED level 6> (incl. higher qualifications at level 5A in some countries)"}
+{"column": "ST008Q02TA", "meaning": "Does your father have this qualification? <ISCED level 5A> (excl. higher qualifications at level 5A in some countries)"}
+{"column": "ST008Q03TA", "meaning": "Does your father have any of the following qualifications? <ISCED level 5B>"}
+{"column": "ST008Q04TA", "meaning": "Does your father have any of the following qualifications? <ISCED level 4>"}
+{"column": "ST011Q02TA", "meaning": "In your home: A room of your own"}
+{"column": "ST011Q03TA", "meaning": "In your home: A quiet place to study"}
+{"column": "ST011Q07TA", "meaning": "In your home: Classic literature (e.g. <Shakespeare>)"}
+{"column": "ST011Q08TA", "meaning": "In your home: Books of poetry"}
+{"column": "ST011Q09TA", "meaning": "In your home: Works of art (e.g. paintings)"}
+{"column": "ST011Q16NA", "meaning": "In your home: Books on art, music, or design"}
+{"column": "ST012Q01TA", "meaning": "How many in your home: Televisions"}
+{"column": "ST012Q02TA", "meaning": "How many in your home: Cars"}
+{"column": "ST012Q03TA", "meaning": "How many in your home: Rooms with a bath or shower"}
+{"column": "ST012Q08NA", "meaning": "How many in your home: E-book readers (e.g. <Kindle>, <Kobo>, <Bookeen>)"}
+{"column": "ST012Q09NA", "meaning": "How many in your home: Musical instruments (e.g. guitar, piano)"}
+{"column": "ST013Q01TA", "meaning": "How many books are there in your home?"}
+{"column": "ST016Q01NA", "meaning": "Overall, how satisfied are you with your life as a whole these days?"}
+{"column": "ST019AQ01T", "meaning": "In what country were you and your parents born? You"}
+{"column": "ST019BQ01T", "meaning": "In what country were you and your parents born? Mother"}
+{"column": "ST019CQ01T", "meaning": "In what country were you and your parents born? Father"}
+{"column": "ST021Q01TA", "meaning": "How old were you when you arrived in <country of test>?"}
+{"column": "ST034Q02TA", "meaning": "Thinking about your school: I make friends easily at school."}
+{"column": "ST034Q03TA", "meaning": "Thinking about your school: I feel like I belong at school."}
+{"column": "ST034Q04TA", "meaning": "Thinking about your school: I feel awkward and out of place in my school."}
+{"column": "ST034Q05TA", "meaning": "Thinking about your school: Other students seem to like me."}
+{"column": "ST034Q06TA", "meaning": "Thinking about your school: I feel lonely at school."}
+{"column": "ST038Q03NA", "meaning": "During the past 12 months, how often: Other students left me out of things on purpose."}
+{"column": "ST038Q04NA", "meaning": "During the past 12 months, how often: Other students made fun of me."}
+{"column": "ST038Q05NA", "meaning": "During the past 12 months, how often: I was threatened by other students."}
+{"column": "ST038Q07NA", "meaning": "During the past 12 months, how often: I got hit or pushed around by other students."}
+{"column": "ST038Q08NA", "meaning": "During the past 12 months, how often: Other students spread nasty rumours about me."}
+{"column": "ST062Q01TA", "meaning": "In the last two full weeks of school, how often: I <skipped> a whole school day."}
+{"column": "ST062Q02TA", "meaning": "In the last two full weeks of school, how often: I <skipped> some classes."}
+{"column": "ST062Q03TA", "meaning": "In the last two full weeks of school, how often: I arrived late for school."}
+{"column": "ST097Q01TA", "meaning": "How often during <test language lessons>: Students dont listen to what the teacher says."}
+{"column": "ST097Q02TA", "meaning": "How often during <test language lessons>: There is noise and disorder."}
+{"column": "ST097Q03TA", "meaning": "How often during <test language lessons>: The teacher waits long for students to quiet down."}
+{"column": "ST097Q04TA", "meaning": "How often during <test language lessons>: Students cannot work well."}
+{"column": "ST097Q05TA", "meaning": "How often during <test language lessons>: Students dont start working for a long time after the lesson begins."}
+{"column": "ST102Q03TA", "meaning": "How often during <test language lessons>: [...] the teacher presents a short summary of the previous lesson."}
+{"column": "ST127Q01TA", "meaning": "Have you ever repeated a <grade>? At <ISCED 1>"}
+{"column": "ST127Q02TA", "meaning": "Have you ever repeated a <grade>? At <ISCED 2>"}
+{"column": "ST127Q03TA", "meaning": "Have you ever repeated a <grade>? At <ISCED 3>"}
+{"column": "ST153Q03HA", "meaning": "When you have to read, does the teacher ask you to: Discuss in small groups with other students who read the same [...]"}
+{"column": "ST153Q09HA", "meaning": "When you have to read, does the teacher ask you to: Select a passage you liked or disliked and explain why"}
+{"column": "ST154Q01HA", "meaning": "<this academic year>, how many pages was the longest piece of text you had to read for your <test language lessons>?"}
+{"column": "ST160Q02IA", "meaning": "How much do you agree or disagree? Reading is one of my favourite hobbies."}
+{"column": "ST160Q04IA", "meaning": "How much do you agree or disagree? For me, reading is a waste of time."}
+{"column": "ST160Q05IA", "meaning": "How much do you agree or disagree? I read only to get information that I need."}
+{"column": "ST161Q02HA", "meaning": "Agree: I am able to understand difficult texts."}
+{"column": "ST161Q06HA", "meaning": "Agree: I have always had difficulty with reading."}
+{"column": "ST161Q07HA", "meaning": "Agree: I have to read a text several times before completely understanding it."}
+{"column": "ST163Q02HA", "meaning": "In the PISA test, how do you feel about the reading tasks: There were many words I could not understand."}
+{"column": "ST163Q03HA", "meaning": "In the PISA test, how do you feel about the reading tasks: Many texts were too difficult for me."}
+{"column": "ST168Q01HA", "meaning": "Which of the following statements best describes how you read books (on any topic)?"}
+{"column": "ST175Q01IA", "meaning": "About how much time do you usually spend reading for enjoyment?"}
+{"column": "ST177Q01HA", "meaning": "How many languages [...] do you and your parents speak well enough to converse with others? You"}
+{"column": "ST177Q02HA", "meaning": "How many languages [...] do you and your parents speak well enough to converse with others? Your mother"}
+{"column": "ST177Q03HA", "meaning": "How many languages [...] do you and your parents speak well enough to converse with others? Your father"}
+{"column": "ST183Q01HA", "meaning": "Agree: When I am failing, I worry about what others think of me."}
+{"column": "ST183Q02HA", "meaning": "Agree: When I am failing, I am afraid that I might not have enough talent."}
+{"column": "ST183Q03HA", "meaning": "Agree: When I am failing, this makes me doubt my plans for the future."}
+{"column": "ST184Q01HA", "meaning": "Agree: Your intelligence is something about you that you cant change very much."}
+{"column": "ST185Q01HA", "meaning": "Agree: My life has clear meaning or purpose."}
+{"column": "ST185Q02HA", "meaning": "Agree: I have discovered a satisfactory meaning in life."}
+{"column": "ST185Q03HA", "meaning": "Agree: I have a clear sense of what gives meaning to my life."}
+{"column": "ST186Q01HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Joyful"}
+{"column": "ST186Q02HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Afraid"}
+{"column": "ST186Q03HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Cheerful"}
+{"column": "ST186Q05HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Happy"}
+{"column": "ST186Q06HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Scared"}
+{"column": "ST186Q07HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Lively"}
+{"column": "ST186Q08HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Sad"}
+{"column": "ST186Q09HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Proud"}
+{"column": "ST186Q10HA", "meaning": "Thinking about yourself and how you normally feel: how often do you feel as described below? Miserable"}
+{"column": "ST213Q01HA", "meaning": "Thinking of past two <test language lessons>: It was clear to me that the teacher liked teaching us."}
+{"column": "ST213Q02HA", "meaning": "Thinking of past two <test language lessons>: The enthusiasm of the teacher inspired me."}
+{"column": "ST213Q03HA", "meaning": "Thinking of past two <test language lessons>: It was clear that the teacher likes to deal with the topic of the lesson."}
+{"column": "ST213Q04HA", "meaning": "Thinking of past two <test language lessons>: The teacher showed enjoyment in teaching."}
+{"column": "ST214Q03HA", "meaning": "How well does the following describe you: I am interested in how people from various cultures see the world."}
+{"column": "ST214Q06HA", "meaning": "How well does the following describe you: I am interested in finding out about the traditions of other cultures."}
+{"column": "ST223Q04HA", "meaning": "Teachers in your school: They say negative things about people of some cultural groups."}
+{"column": "ST223Q05HA", "meaning": "Teachers inyour school: They blame people of some cultural groups for problems faced by <country of test>."}
+{"column": "ST225Q01HA", "meaning": "Do you expect to complete? <ISCED level 2>"}
+{"column": "ST225Q02HA", "meaning": "Do you expect to complete? <ISCED level 3B or C>"}
+{"column": "ST225Q03HA", "meaning": "Do you expect to complete? <ISCED level 3A>"}
+{"column": "ST225Q04HA", "meaning": "Do you expect to complete? <ISCED level 4>"}
+{"column": "ST225Q05HA", "meaning": "Do you expect to complete? <ISCED level 5B>"}
+{"column": "ST225Q06HA", "meaning": "Do you expect to complete? <ISCED level 5A or 6>"}
+{"column": "STRATUM", "meaning": "Stratum ID 7-character (cnt + region ID + original stratum ID)"}
+{"column": "ESCS", "meaning": "Index of economic, social and cultural status"}
+{"column": "WEALTH", "meaning": "Wealth"}
+{"column": "W_FSTUWT", "meaning": "Final trimmed nonresponse adjusted student weight"}
+{"column": "PV1MATH", "meaning": "Plausible Value 1 in Mathematics"}
+{"column": "PV2MATH", "meaning": "Plausible Value 2 in Mathematics"}
+{"column": "PV3MATH", "meaning": "Plausible Value 3 in Mathematics"}
+{"column": "PV4MATH", "meaning": "Plausible Value 4 in Mathematics"}
+{"column": "PV5MATH", "meaning": "Plausible Value 5 in Mathematics"}
+{"column": "PV6MATH", "meaning": "Plausible Value 6 in Mathematics"}
+{"column": "PV7MATH", "meaning": "Plausible Value 7 in Mathematics"}
+{"column": "PV8MATH", "meaning": "Plausible Value 8 in Mathematics"}
+{"column": "PV9MATH", "meaning": "Plausible Value 9 in Mathematics"}
+{"column": "PV10MATH", "meaning": "Plausible Value 10 in Mathematics"}
+{"column": "PV1READ", "meaning": "Plausible Value 1 in Reading"}
+{"column": "PV2READ", "meaning": "Plausible Value 2 in Reading"}
+{"column": "PV3READ", "meaning": "Plausible Value 3 in Reading"}
+{"column": "PV4READ", "meaning": "Plausible Value 4 in Reading"}
+{"column": "PV5READ", "meaning": "Plausible Value 5 in Reading"}
+{"column": "PV6READ", "meaning": "Plausible Value 6 in Reading"}
+{"column": "PV7READ", "meaning": "Plausible Value 7 in Reading"}
+{"column": "PV8READ", "meaning": "Plausible Value 8 in Reading"}
+{"column": "PV9READ", "meaning": "Plausible Value 9 in Reading"}
+{"column": "PV10READ", "meaning": "Plausible Value 10 in Reading"}
+{"column": "PV1SCIE", "meaning": "Plausible Value 1 in Science"}
+{"column": "PV2SCIE", "meaning": "Plausible Value 2 in Science"}
+{"column": "PV3SCIE", "meaning": "Plausible Value 3 in Science"}
+{"column": "PV4SCIE", "meaning": "Plausible Value 4 in Science"}
+{"column": "PV5SCIE", "meaning": "Plausible Value 5 in Science"}
+{"column": "PV6SCIE", "meaning": "Plausible Value 6 in Science"}
+{"column": "PV7SCIE", "meaning": "Plausible Value 7 in Science"}
+{"column": "PV8SCIE", "meaning": "Plausible Value 8 in Science"}
+{"column": "PV9SCIE", "meaning": "Plausible Value 9 in Science"}
+{"column": "PV10SCIE", "meaning": "Plausible Value 10 in Science"}
+{"column": "PV1GLCM", "meaning": "Plausible Value 1 in Global Competency"}
+{"column": "PV2GLCM", "meaning": "Plausible Value 2 in Global Competency"}
+{"column": "PV3GLCM", "meaning": "Plausible Value 3 in Global Competency"}
+{"column": "PV4GLCM", "meaning": "Plausible Value 4 in Global Competency"}
+{"column": "PV5GLCM", "meaning": "Plausible Value 5 in Global Competency"}
+{"column": "PV6GLCM", "meaning": "Plausible Value 6 in Global Competency"}
+{"column": "PV7GLCM", "meaning": "Plausible Value 7 in Global Competency"}
+{"column": "PV8GLCM", "meaning": "Plausible Value 8 in Global Competency"}
+{"column": "PV9GLCM", "meaning": "Plausible Value 9 in Global Competency"}
+{"column": "PV10GLCM", "meaning": "Plausible Value 10 in Global Competency"}
+{"column": "PV1RCLI", "meaning": "Plausible Value 1 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV2RCLI", "meaning": "Plausible Value 2 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV3RCLI", "meaning": "Plausible Value 3 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV4RCLI", "meaning": "Plausible Value 4 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV5RCLI", "meaning": "Plausible Value 5 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV6RCLI", "meaning": "Plausible Value 6 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV7RCLI", "meaning": "Plausible Value 7 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV8RCLI", "meaning": "Plausible Value 8 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV9RCLI", "meaning": "Plausible Value 9 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV10RCLI", "meaning": "Plausible Value 10 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "PV1RCUN", "meaning": "Plausible Value 1 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV2RCUN", "meaning": "Plausible Value 2 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV3RCUN", "meaning": "Plausible Value 3 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV4RCUN", "meaning": "Plausible Value 4 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV5RCUN", "meaning": "Plausible Value 5 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV6RCUN", "meaning": "Plausible Value 6 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV7RCUN", "meaning": "Plausible Value 7 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV8RCUN", "meaning": "Plausible Value 8 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV9RCUN", "meaning": "Plausible Value 9 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV10RCUN", "meaning": "Plausible Value 10 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "PV1RCER", "meaning": "Plausible Value 1 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV2RCER", "meaning": "Plausible Value 2 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV3RCER", "meaning": "Plausible Value 3 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV4RCER", "meaning": "Plausible Value 4 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV5RCER", "meaning": "Plausible Value 5 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV6RCER", "meaning": "Plausible Value 6 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV7RCER", "meaning": "Plausible Value 7 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV8RCER", "meaning": "Plausible Value 8 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV9RCER", "meaning": "Plausible Value 9 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV10RCER", "meaning": "Plausible Value 10 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "PV1RTSN", "meaning": "Plausible Value 1 in Text Structure Subscale of Reading - Single"}
+{"column": "PV2RTSN", "meaning": "Plausible Value 2 in Text Structure Subscale of Reading - Single"}
+{"column": "PV3RTSN", "meaning": "Plausible Value 3 in Text Structure Subscale of Reading - Single"}
+{"column": "PV4RTSN", "meaning": "Plausible Value 4 in Text Structure Subscale of Reading - Single"}
+{"column": "PV5RTSN", "meaning": "Plausible Value 5 in Text Structure Subscale of Reading - Single"}
+{"column": "PV6RTSN", "meaning": "Plausible Value 6 in Text Structure Subscale of Reading - Single"}
+{"column": "PV7RTSN", "meaning": "Plausible Value 7 in Text Structure Subscale of Reading - Single"}
+{"column": "PV8RTSN", "meaning": "Plausible Value 8 in Text Structure Subscale of Reading - Single"}
+{"column": "PV9RTSN", "meaning": "Plausible Value 9 in Text Structure Subscale of Reading - Single"}
+{"column": "PV10RTSN", "meaning": "Plausible Value 10 in Text Structure Subscale of Reading - Single"}
+{"column": "PV1RTML", "meaning": "Plausible Value 1 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV2RTML", "meaning": "Plausible Value 2 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV3RTML", "meaning": "Plausible Value 3 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV4RTML", "meaning": "Plausible Value 4 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV5RTML", "meaning": "Plausible Value 5 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV6RTML", "meaning": "Plausible Value 6 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV7RTML", "meaning": "Plausible Value 7 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV8RTML", "meaning": "Plausible Value 8 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV9RTML", "meaning": "Plausible Value 9 in Text Structure Subscale of Reading - Multiple"}
+{"column": "PV10RTML", "meaning": "Plausible Value 10 in Text Structure Subscale of Reading - Multiple"}
+{"column": "RCORE_PERF", "meaning": "Reading Adaptive Performance: Core"}
+{"column": "RCO1S_PERF", "meaning": "Reading Adaptive Performance:  Core + First Stage"}
+{"column": "LANGTEST_COG", "meaning": "Language of Assessment"}
+{"column": "SENWT", "meaning": "Senate Weight (sum of 5000 per country)"}
+{"column": "tch_satisfied", "meaning": "NEW: Does teacher find the work meaningful (higher the better)"}
+{"column": "education_obstacle", "meaning": "NEW: Teaching is hindered by lack of resources (0 is not hindered, higher the worse)"}
+{"column": "problematic_students", "meaning": "NEW: Teaching is hindered because of students (0 is not hindered, higher the worse)"}
+{"column": "degree_score_teachers", "meaning": "NEW: Score of number of teachers with degree avg to all"}
+{"column": "home_art", "meaning": "NEW: Art is important at home, higher the better"}
+{"column": "bad_home_conditions", "meaning": "NEW: home is not suitable for studing, higher the worst "}
+{"column": "school_bad_time", "meaning": "NEW: Student is having bad time at school (bullying, friendship) higher the worst"}
+{"column": "emotional_status", "meaning": "NEW: Emotional status of student. higher the better"}
+{"column": "family_hi_ed", "meaning": "NEW: high education in the family, higher the better"}
+{"column": "quality_tch", "meaning": "NEW: Student believes teachers are professionals"}
+{"column": "reading_not_easy", "meaning": "NEW: Student finds reading tasks hard, higher the harder "}
+{"column": "mean_teacher_satisfied", "meaning": "NEW: Does teacher find the work meaningful (higher the better) mean of all teachers in school "}
+{"column": "mean_age_of_teachers", "meaning": "NEW: mean age of all teachers in school"}
+{"column": "mean_yaer_experiance", "meaning": "NEW: mean year of experiance of all teachers in school"}
+{"column": "math_score", "meaning": "NEW: custom calcualated math score"}
+{"column": "math_answered", "meaning": "NEW: number of math questions answered"}
+{"column": "reading_score", "meaning": "NEW: custom calcualated reading score"}
+{"column": "reading_answered", "meaning": "NEW: number of reading questions answered"}
+{"column": "science_score", "meaning": "NEW:custom calcualated science score"}
+{"column": "science_answered", "meaning": "NEW: number of science questions answered"}
+{"column": "country_id", "meaning": "Country Identifier"}
+{"column": "country_code", "meaning": "Country code 3-character"}
+{"column": "school_id", "meaning": "Intl. School ID"}
+{"column": "student_id", "meaning": "Intl. Student ID"}
+{"column": "social_level_id", "meaning": "Stratum ID 7-character (cnt + region ID + original stratum ID)"}
+{"column": "grade", "meaning": "Student International Grade (Derived)"}
+{"column": "birth_year", "meaning": "Student (Standardized) Birth -Year"}
+{"column": "gender", "meaning": "Student (Standardized) Gender"}
+{"column": "income", "meaning": "What is your annual household income?"}
+{"column": "socio_economic_index", "meaning": "Index of economic, social and cultural status"}
+{"column": "wealth", "meaning": "Wealth"}
+{"column": "score_math", "meaning": "Plausible Value 1 in Mathematics"}
+{"column": "score_reading", "meaning": "Plausible Value 1 in Reading"}
+{"column": "score_science", "meaning": "Plausible Value 1 in Science"}
+{"column": "score_find_info", "meaning": "Plausible Value 1 in Cognitive Process Subscale of Reading - Locate Information"}
+{"column": "score_understand", "meaning": "Plausible Value 1 in Cognitive Process Subscale of Reading - Understand"}
+{"column": "score_evaluate", "meaning": "Plausible Value 1 in Cognitive Process Subscale of Reading - Evaluate and Reflect"}
+{"column": "home_art_score", "meaning": "NEW: Art is important at home, higher the better"}
+{"column": "bad_home_conditions", "meaning": "NEW: home is not suitable for studing, higher the worst "}
+{"column": "bullied_at_school", "meaning": "NEW: Student is having bad time at school (bullying, friendship) higher the worst"}
+{"column": "emotional_status", "meaning": "NEW: Emotional status of student. higher the better"}
+{"column": "family_high_edu", "meaning": "NEW: high education in the family, higher the better"}
+{"column": "teacher_quality_stu", "meaning": "NEW: Student believes teachers are professionals"}
+{"column": "reading_not_easy", "meaning": "NEW: Student finds reading tasks hard, higher the harder "}
+{"column": "school_type", "meaning": "Is your school a public or a private school?"}
+{"column": "class_size", "meaning": "What is the average size of <test language> classes in your school?"}
+{"column": "cust_math_score", "meaning": "NEW: custom calcualated math score"}
+{"column": "num_math_answered", "meaning": "NEW: number of math questions answered"}
+{"column": "cust_reading_score", "meaning": "NEW: custom calcualated reading score"}
+{"column": "num_reading_answered", "meaning": "NEW: number of reading questions answered"}
+{"column": "cust_science_score", "meaning": "NEW:custom calcualated science score"}
+{"column": "num_science_answered", "meaning": "NEW: number of science questions answered"}
