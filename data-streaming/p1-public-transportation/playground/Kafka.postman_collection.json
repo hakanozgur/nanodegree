@@ -1,0 +1,192 @@
+{
+  "info": {
+    "_postman_id": "24fc14db-e78e-48f4-a751-0c853c9fe9a1",
+    "name": "Kafka",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Stations",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8083/connectors/stations",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "connectors",
+            "stations"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete station Copy",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "localhost:8083/connectors/stations",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "connectors",
+            "stations"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "add stations",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n           \"name\": \"stations\",\r\n           \"config\": {\r\n                \"connector.class\": \"io.confluent.connect.jdbc.JdbcSourceConnector\",\r\n                \"key.converter\": \"org.apache.kafka.connect.json.JsonConverter\",\r\n                \"key.converter.schemas.enable\": \"false\",\r\n                \"value.converter\": \"org.apache.kafka.connect.json.JsonConverter\",\r\n                \"value.converter.schemas.enable\": \"false\",\r\n                \"batch.max.rows\": \"500\",\r\n                \"connection.url\": \"jdbc:postgresql://postgres:5432/cta\",\r\n                \"connection.user\": \"cta_admin\",\r\n                \"connection.password\": \"chicago\",\r\n                \"table.whitelist\": \"stations\",\r\n                \"mode\": \"incrementing\",\r\n                \"incrementing.column.name\": \"stop_id\",\r\n                \"topic.prefix\": \"org.chicago.cta.\",\r\n                \"poll.interval.ms\": \"60000\" \r\n            }\r\n       }"
+        },
+        "url": {
+          "raw": "http://localhost:8083/connectors",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "connectors"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ksql_add_main",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/vnd.ksql.v1+json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"ksql\": \"\\nCREATE TABLE turnstile (\\n    station_id int,\\n    station_name varchar,\\n    line varchar\\n) WITH (\\n    kafka_topic='org.chicago.cta.turnstile',\\n    value_format='avro',\\n    key='station_id'\\n);\\n\\nCREATE TABLE turnstile_summary\\nWITH (value_format='json') AS\\n    select station_id, count(station_id) as count\\n    from turnstile\\n    group by station_id;\\n\", \"streamsProperties\": {\"ksql.streams.auto.offset.reset\": \"earliest\"}} "
+        },
+        "url": {
+          "raw": "http://localhost:8088/ksql",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "ksql"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ksql_drop_summary",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/vnd.ksql.v1+json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"ksql\": \"drop table turnstile_summary;\",\r\n    \"streamsProperties\": {\"ksql.streams.auto.offset.reset\": \"earliest\"}\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8088/ksql",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "ksql"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ksql_drop_main",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/vnd.ksql.v1+json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"ksql\": \"drop table turnstile;\",\r\n    \"streamsProperties\": {\"ksql.streams.auto.offset.reset\": \"earliest\"}\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8088/ksql",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "ksql"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ksql_terminate",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/vnd.ksql.v1+json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"ksql\": \"terminate CTAS_TURNSTILE_SUMMARY_0;\",\r\n    \"streamsProperties\": {\"ksql.streams.auto.offset.reset\": \"earliest\"}\r\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8088/ksql",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "ksql"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
