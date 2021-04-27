@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  pg_postgres:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=docker
+    ports:
+      - '6021:5432'
+    # volumes:
+    #   - ./data:/var/lib/postgresql/data
+  pg_pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=user@domain.com
+      - PGADMIN_DEFAULT_PASSWORD=SuperSecret
+    ports:
+      - '6020:80'
